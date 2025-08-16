@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "onlybuild": "run-p \"build-only {@}\" --",
     "preview": "vite preview",
     "prepare": "cypress install",
     "test:e2e": "cypress run",
