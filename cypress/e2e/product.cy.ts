@@ -49,7 +49,7 @@ describe("Products Page Tests", () => {
 	});
 
 	it("shows loading state", () => {
-		cy.get('[data-cy="loading"]').should("contain", "Loading productssss...");
+		cy.get('[data-cy="loading"]').should("contain", "Loading products...");
 		cy.wait("@getProducts");
 		cy.get('[data-cy="loading"]').should("not.exist");
 	});
