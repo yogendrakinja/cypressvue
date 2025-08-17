@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 export interface CartItem {
     id: string
-    name: string
+    title: string
     price: number
     quantity: number
 }
